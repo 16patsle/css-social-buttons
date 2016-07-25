@@ -15,20 +15,14 @@
 .zocial,
 a.zocial {
 	border: 1px solid #777;
-	border-color: rgba(0,0,0,0.2);
-	border-bottom-color: #333;
-	border-bottom-color: rgba(0,0,0,0.4);
+	border-color: rgba(0,0,0,0);
 	color: #fff;
-	-moz-box-shadow: inset 0 0.08em 0 rgba(255,255,255,0.4), inset 0 0 0.1em rgba(255,255,255,0.9);
-	-webkit-box-shadow: inset 0 0.08em 0 rgba(255,255,255,0.4), inset 0 0 0.1em rgba(255,255,255,0.9);
-	box-shadow: inset 0 0.08em 0 rgba(255,255,255,0.4), inset 0 0 0.1em rgba(255,255,255,0.9);
 	cursor: pointer;
 	display: inline-block;
 	font: bold 100%/2.1 "Lucida Grande", Tahoma, sans-serif;
 	padding: 0 .95em 0 0;
 	text-align: center;
 	text-decoration: none;
-	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
 	white-space: nowrap;
 	
 	-moz-user-select: none;
@@ -44,20 +38,16 @@ a.zocial {
 
 .zocial:before {
 	content: "";
-	border-right: 0.075em solid rgba(0,0,0,0.1);
 	float: left;
 	font: 120%/1.65 zocial;
 	font-style: normal;
 	font-weight: normal;
 	margin: 0 0.5em 0 0;
+	margin-top: 0.2em;
 	padding: 0 0.5em;
 	text-align: center;
 	text-decoration: none;
 	text-transform: none;
-	
-	-moz-box-shadow: 0.075em 0 0 rgba(255,255,255,0.25);
-	-webkit-box-shadow: 0.075em 0 0 rgba(255,255,255,0.25);
-	box-shadow: 0.075em 0 0 rgba(255,255,255,0.25);
 	
 	-moz-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -96,30 +86,15 @@ a.zocial {
 /* Gradients */
 
 .zocial {
-	background-image: -moz-linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.05) 49%, rgba(0,0,0,.05) 51%, rgba(0,0,0,.1));
-	background-image: -ms-linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.05) 49%, rgba(0,0,0,.05) 51%, rgba(0,0,0,.1));
-	background-image: -o-linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.05) 49%, rgba(0,0,0,.05) 51%, rgba(0,0,0,.1));
-	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.1)), color-stop(49%, rgba(255,255,255,.05)), color-stop(51%, rgba(0,0,0,.05)), to(rgba(0,0,0,.1)));
-	background-image: -webkit-linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.05) 49%, rgba(0,0,0,.05) 51%, rgba(0,0,0,.1));
-	background-image: linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.05) 49%, rgba(0,0,0,.05) 51%, rgba(0,0,0,.1));
+
 }
 
 .zocial:hover, .zocial:focus {
-	background-image: -moz-linear-gradient(rgba(255,255,255,.15) 49%, rgba(0,0,0,.1) 51%, rgba(0,0,0,.15));
-	background-image: -ms-linear-gradient(rgba(255,255,255,.15) 49%, rgba(0,0,0,.1) 51%, rgba(0,0,0,.15));
-	background-image: -o-linear-gradient(rgba(255,255,255,.15) 49%, rgba(0,0,0,.1) 51%, rgba(0,0,0,.15));
-	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.15)), color-stop(49%, rgba(255,255,255,.15)), color-stop(51%, rgba(0,0,0,.1)), to(rgba(0,0,0,.15)));
-	background-image: -webkit-linear-gradient(rgba(255,255,255,.15) 49%, rgba(0,0,0,.1) 51%, rgba(0,0,0,.15));
-	background-image: linear-gradient(rgba(255,255,255,.15) 49%, rgba(0,0,0,.1) 51%, rgba(0,0,0,.15));
+	opacity: 0.9;
 }
 
 .zocial:active {
-	background-image: -moz-linear-gradient(bottom, rgba(255,255,255,.1), rgba(255,255,255,0) 30%, transparent 50%, rgba(0,0,0,.1));
-	background-image: -ms-linear-gradient(bottom, rgba(255,255,255,.1), rgba(255,255,255,0) 30%, transparent 50%, rgba(0,0,0,.1));
-	background-image: -o-linear-gradient(bottom, rgba(255,255,255,.1), rgba(255,255,255,0) 30%, transparent 50%, rgba(0,0,0,.1));
-	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.1)), color-stop(30%, rgba(255,255,255,0)), color-stop(50%, transparent), to(rgba(0,0,0,.1)));
-	background-image: -webkit-linear-gradient(bottom, rgba(255,255,255,.1), rgba(255,255,255,0) 30%, transparent 50%, rgba(0,0,0,.1));
-	background-image: linear-gradient(bottom, rgba(255,255,255,.1), rgba(255,255,255,0) 30%, transparent 50%, rgba(0,0,0,.1));
+	opacity: 0.7;
 }
 
 /* Adjustments for light background buttons */
@@ -146,13 +121,8 @@ a.zocial {
 .zocial.weibo,
 .zocial.wikipedia {
 	border: 1px solid #aaa;
-	border-color: rgba(0,0,0,0.3);
-	border-bottom-color: #777;
-	border-bottom-color: rgba(0,0,0,0.5);
-	-moz-box-shadow: inset 0 0.08em 0 rgba(255,255,255,0.7), inset 0 0 0.08em rgba(255,255,255,0.5);
-	-webkit-box-shadow: inset 0 0.08em 0 rgba(255,255,255,0.7), inset 0 0 0.08em rgba(255,255,255,0.5);
-	box-shadow: inset 0 0.08em 0 rgba(255,255,255,0.7), inset 0 0 0.08em rgba(255,255,255,0.5);
-	text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+	border-color: rgba(0,0,0,0.15);
+	opacity: 0.7;
 }
 
 /* :hover adjustments for light background buttons */
@@ -200,12 +170,7 @@ a.zocial {
 .zocial.wikipedia:hover,
 .zocial.houzz:focus, 
 .zocial.houzz:hover {
-	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0.5)), color-stop(49%, rgba(255,255,255,0.2)), color-stop(51%, rgba(0,0,0,0.05)), to(rgba(0,0,0,0.15)));
-	background-image: -moz-linear-gradient(top, rgba(255,255,255,0.5), rgba(255,255,255,0.2) 49%, rgba(0,0,0,0.05) 51%, rgba(0,0,0,0.15));
-	background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.5), rgba(255,255,255,0.2) 49%, rgba(0,0,0,0.05) 51%, rgba(0,0,0,0.15));
-	background-image: -o-linear-gradient(top, rgba(255,255,255,0.5), rgba(255,255,255,0.2) 49%, rgba(0,0,0,0.05) 51%, rgba(0,0,0,0.15));
-	background-image: -ms-linear-gradient(top, rgba(255,255,255,0.5), rgba(255,255,255,0.2) 49%, rgba(0,0,0,0.05) 51%, rgba(0,0,0,0.15));
-	background-image: linear-gradient(top, rgba(255,255,255,0.5), rgba(255,255,255,0.2) 49%, rgba(0,0,0,0.05) 51%, rgba(0,0,0,0.15));
+	opacity: 0.9;
 }
 
 /* :active adjustments for light background buttons */
@@ -230,12 +195,7 @@ a.zocial {
 .zocial.viadeo:active,
 .zocial.weibo:active,
 .zocial.wikipedia:active {
-	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0)), color-stop(30%, rgba(255,255,255,0)), color-stop(50%, rgba(0,0,0,0)), to(rgba(0,0,0,0.1)));
-	background-image: -moz-linear-gradient(bottom, rgba(255,255,255,0), rgba(255,255,255,0) 30%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.1));
-	background-image: -webkit-linear-gradient(bottom, rgba(255,255,255,0), rgba(255,255,255,0) 30%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.1));
-	background-image: -o-linear-gradient(bottom, rgba(255,255,255,0), rgba(255,255,255,0) 30%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.1));
-	background-image: -ms-linear-gradient(bottom, rgba(255,255,255,0), rgba(255,255,255,0) 30%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.1));
-	background-image: linear-gradient(bottom, rgba(255,255,255,0), rgba(255,255,255,0) 30%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.1));
+	opacity: 1;
 }
 
 /* Button icon */
@@ -373,7 +333,7 @@ a.zocial {
 /* Button background and text color */
 
 .zocial.acrobat {background-color: #fff; color: #000;}
-.zocial.amazon {background-color: #ffad1d; color: #030037; text-shadow: 0 1px 0 rgba(255,255,255,0.5);}
+.zocial.amazon {background-color: #ffad1d; color: #030037;}
 .zocial.android {background-color: #a4c639;}
 .zocial.angellist {background-color: #000;}
 .zocial.aol {background-color: #f00;}
@@ -435,7 +395,7 @@ a.zocial {
 .zocial.ninetyninedesigns {background-color: #fff; color: #072243;}
 .zocial.openid {background-color: #f5f5f5; color: #333;}
 .zocial.opentable {background-color: #990000;}
-.zocial.paypal {background-color: #fff; color: #32689a; text-shadow: 0 1px 0 rgba(255,255,255,0.5);}
+.zocial.paypal {background-color: #fff; color: #32689a;}
 .zocial.persona {background-color: #1258a1; color: #fff;}
 .zocial.pinboard {background-color: blue;}
 .zocial.pinterest {background-color: #c91618;}
@@ -444,7 +404,7 @@ a.zocial {
 .zocial.pocket {background-color: #fff; color: #777;}
 .zocial.podcast {background-color: #9365ce;}
 .zocial.posterous {background-color: #ffd959; color: #bc7134;}
-.zocial.print {background-color: #f0f0eb; color: #222; text-shadow: 0 1px 0 rgba(255,255,255,0.8);}
+.zocial.print {background-color: #f0f0eb; color: #222;}
 .zocial.quora {background-color: #a82400;}
 .zocial.reddit {background-color: #fff; color: #222;}
 .zocial.rss {background-color: #ff7f25;}
@@ -486,7 +446,7 @@ Credit to @guillermovs for suggesting
 .zocial.primary, .zocial.secondary {margin: 0.1em 0; padding: 0 1em;}
 .zocial.primary:before, .zocial.secondary:before {display: none;}
 .zocial.primary {background-color: #333;}
-.zocial.secondary {background-color: #f0f0eb; color: #222; text-shadow: 0 1px 0 rgba(255,255,255,0.8);}
+.zocial.secondary {background-color: #f0f0eb; color: #222;}
 
 /* Any browser-specific adjustments */
 
