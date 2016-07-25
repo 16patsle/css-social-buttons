@@ -1,4 +1,4 @@
-# Zocial CSS social buttons
+# Zocial Buttons Modern - CSS social buttons
 
 I basically rewrote this entire set so they are full vector buttons, meaning:
 
@@ -13,7 +13,7 @@ I basically rewrote this entire set so they are full vector buttons, meaning:
 - CSS3 degrades gracefully in IE8 and below etc.
 - also includes generic icon-less primary and secondary buttons
 
-*[Demo](https://smcllns.github.io/css-social-buttons/)*
+*[Demo](https://16patsle.github.io/zocial-buttons-modern/)*
 
 ## How to use these buttons
 
@@ -32,15 +32,16 @@ or
 - Add class for name of service e.g. `.dropbox`, `.twitter`, `.github`
 - Done :-)
 
-Check out [zocial.smcllns.com](http://zocial.smcllns.com) for code examples.
+Check out [16patsle.github.io/zocial-buttons-modern](https://16patsle.github.io/zocial-buttons-modern/) for code examples.
 
+Original verison by @smcllns [here](https://github.com/smcllns/css-social-buttons)
 There's also a LESS version from @gustavohenke [here](https://github.com/gustavohenke/zocial-less)
 
 Problems, questions or requests to [@smcllns](http://twitter.com/smcllns)
 
 ## CDN
 
-This project is available on CDNJS:
+The original project is available on CDNJS:
 https://cdnjs.com/libraries/css-social-buttons
 
 ## How to contribute
@@ -52,6 +53,8 @@ https://cdnjs.com/libraries/css-social-buttons
 5. Update the `sample.html` file with both the button and icon.
 6. Test rendering. If broken go to step 2.
 7. Send pull-request !
+
+_NOTE:_ Icons contributions should be sent to the original repository.
 
 ## License
 
